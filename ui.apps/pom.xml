@@ -84,6 +84,11 @@
                             <artifactId>pgdbconnector.core</artifactId>
                             <target>/apps/pgdbconnector/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>pgdbconnector</groupId>
+                            <artifactId>pgdbconnector.connector</artifactId>
+                            <target>/apps/pgdbconnector/install</target>
+                        </embedded>
                     </embeddeds>
                     <subPackages>
                         <subPackage>
@@ -109,6 +114,12 @@
         <dependency>
             <groupId>pgdbconnector</groupId>
             <artifactId>pgdbconnector.core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>pgdbconnector</groupId>
+            <artifactId>pgdbconnector.connector</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
